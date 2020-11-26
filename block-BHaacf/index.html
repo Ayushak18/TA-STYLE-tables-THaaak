@@ -1,0 +1,490 @@
+<!-- - Create a layout according to the design shown below.
+
+![Table Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/table/ex-1.png)
+
+- Attach the video provided in the background of hero section.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+
+- Do not forget to checkout the preview video, before working on the assignment. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Training Studio | HTML Tables Assignment</title>
+
+    <!-- Link for stylesheets -->
+    <link rel="stylesheet" href="./assets/stylesheets/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/67427b16f1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    
+    <!-- Header Section -->
+    <header class="header upper-case">
+      <div class="container flex">
+        <h3 class="brand">
+          <a href="">Training <span class="active">Studio</span></a>
+        </h3>
+        <nav>
+          <ul class="flex">
+            <li>
+              <a class="active" href="">Home</a>
+            </li>
+            <li>
+              <a class="hover-link" href="">About</a>
+            </li>
+            <li>
+              <a class="hover-link" href="">Classes</a>
+            </li>
+            <li>
+              <a class="hover-link" href="">Schedule</a>
+            </li>
+            <li>
+              <a class="hover-link" href="">Contact</a>
+            </li>
+            <li>
+              <a class="btn hover-btn" href="">Sign Up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero flex">
+        <video src="./assets/gym-video.mp4" autoplay loop muted></video>
+        <div class="overlay"></div>
+        <div class="hero-text container upper-case">
+          <h4 class="hero-sub-heading">work harder, get stronger</h4>
+          <h1 class="hero-heading">
+            Easy with our <span class="active">gym</span>
+          </h1>
+          <a href="#" class="btn hover-btn">Become a member</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-us">
+        <div class="container">
+          <header class="about-us-header section-header padding center">
+            <h3 class="upper-case section-heading header-heading">
+              Choose <span class="active">Program</span>
+            </h3>
+            <img src="./assets/line-dec.png" alt="Waves" />
+            <p class="section-para header-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              molestiae eius doloremque suscipit facere sunt perspiciatis ipsum
+              similique voluptas, molestias sit commodi tenetur ex consectetur
+              ullam, totam voluptatem vero eos.
+            </p>
+          </header>
+        </div>
+        <div class="about-us-program container flex">
+          <div class="flex-48">
+            <div class="about-us-program-img-text flex align-top">
+              <div class="about-us-program-img">
+                <img
+                  src="./assets/features-first-icon.png"
+                  alt="Feature Icon"
+                />
+              </div>
+              <div class="about-us-program-text">
+                <h4>Basic Fitness</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae enim beatae, ratione porro quia, ullam, dolorem
+                </p>
+                <a class="active" href="#">Discover More</a>
+              </div>
+            </div>
+            <div class="about-us-program-img-text flex align-top">
+              <div class="about-us-program-img">
+                <img
+                  src="./assets/features-first-icon.png"
+                  alt="Feature Icon"
+                />
+              </div>
+              <div class="about-us-program-text">
+                <h4>Basic Fitness</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae enim beatae, ratione porro quia, ullam, dolorem
+                </p>
+                <a class="active" href="#">Discover More</a>
+              </div>
+            </div>
+            <div class="about-us-program-img-text flex align-top">
+              <div class="about-us-program-img">
+                <img
+                  src="./assets/features-first-icon.png"
+                  alt="Feature Icon"
+                />
+              </div>
+              <div class="about-us-program-text">
+                <h4>Basic Fitness</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae enim beatae, ratione porro quia, ullam, dolorem
+                </p>
+                <a class="active" href="#">Discover More</a>
+              </div>
+            </div>
+          </div>
+          <div class="flex-48">
+            <div class="about-us-program-img-text flex align-top">
+              <div class="about-us-program-img">
+                <img
+                  src="./assets/features-first-icon.png"
+                  alt="Feature Icon"
+                />
+              </div>
+              <div class="about-us-program-text">
+                <h4>Basic Fitness</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae enim beatae, ratione porro quia, ullam, dolorem
+                </p>
+                <a class="active" href="#">Discover More</a>
+              </div>
+            </div>
+            <div class="about-us-program-img-text flex align-top">
+              <div class="about-us-program-img">
+                <img
+                  src="./assets/features-first-icon.png"
+                  alt="Feature Icon"
+                />
+              </div>
+              <div class="about-us-program-text">
+                <h4>Basic Fitness</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae enim beatae, ratione porro quia, ullam, dolorem
+                </p>
+                <a class="active" href="#">Discover More</a>
+              </div>
+            </div>
+            <div class="about-us-program-img-text flex align-top">
+              <div class="about-us-program-img">
+                <img
+                  src="./assets/features-first-icon.png"
+                  alt="Feature Icon"
+                />
+              </div>
+              <div class="about-us-program-text">
+                <h4>Basic Fitness</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae enim beatae, ratione porro quia, ullam, dolorem
+                </p>
+                <a class="active" href="#">Discover More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner Section -->
+      <section class="banner">
+        <div class="banner-div container center padding">
+          <h3 class="upper-case section-heading">
+            Don't <span class="active">think</span>, Begin
+            <span class="active">today</span>!
+          </h3>
+          <p class="banner-para section-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            expedita nesciunt perspiciatis non molestiae quia, hic reprehenderit
+            itaque, in facere ullam aperiam
+          </p>
+          <a class="btn hover-btn" href="#">Become a member</a>
+        </div>
+      </section>
+
+      <!-- Classes Section -->
+      <section class="classes">
+        <div class="container">
+          <header class="classes-header section-header padding center">
+            <h3 class="upper-case section-heading header-heading">
+              Our <span class="active">Classes</span>
+            </h3>
+            <img src="./assets/line-dec.png" alt="Waves" />
+            <p class="section-para header-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              molestiae eius doloremque suscipit facere sunt perspiciatis ipsum
+              similique voluptas, molestias sit commodi tenetur ex consectetur
+              ullam, totam voluptatem vero eos.
+            </p>
+          </header>
+          <div class="classes-catalogue flex stretch">
+            <aside class="classes-catalogue-aside flex-25">
+              <div class="classes-card flex justify-start">
+                <img src="./assets/tabs-first-icon.png" alt="Dumble" />
+                <h4 class="active header-heading">First Training Program</h4>
+              </div>
+              <div class="classes-card flex justify-start">
+                <img src="./assets/tabs-first-icon.png" alt="Dumble" />
+                <h4 class="header-heading">Second Training Program</h4>
+              </div>
+              <div class="classes-card flex justify-start">
+                <img src="./assets/tabs-first-icon.png" alt="Dumble" />
+                <h4 class="header-heading">Third Training Program</h4>
+              </div>
+              <div class="classes-card flex justify-start">
+                <img src="./assets/tabs-first-icon.png" alt="Dumble" />
+                <h4 class="header-heading">Fourth Training Program</h4>
+              </div>
+              <a class="btn center hover-btn" href="">View All Schedules</a>
+            </aside>
+            <article class="classes-catalogue-article flex-65">
+              <img src="./assets/training-image-01.jpg  " alt="Bell Bar" />
+              <h4 class="header-heading">First Training Class</h4>
+              <p class="header-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem laborum assumenda, excepturi autem maiores
+                necessitatibus reiciendis distinctio magnam quisquam
+                praesentiumalias a aspernatur, amet, voluptates fugit hic dolor!
+                Blanditiis, repudiandae. alias a aspernatur, amet, voluptates
+                fugit hic dolor! Blanditiis, repudiandae.
+              </p>
+              <a href="#" class="btn hover-btn">View Schedule</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Classes-Schedule Section-->
+      <section class="classes-schedule">
+        <div class="container">
+          <header class="classes-schedule-header section-header padding center">
+            <h3 class="upper-case section-heading">
+              Our <span class="active">Classes</span>
+            </h3>
+            <img src="./assets/line-dec.png" alt="Waves" />
+            <p class="section-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              molestiae eius doloremque suscipit facere sunt perspiciatis ipsum
+              similique voluptas, molestias sit commodi tenetur ex consectetur
+              ullam, totam voluptatem vero eos.
+            </p>
+          </header>
+          <div class="classes-schedule-table center">
+            <div class="table-caption">
+              <span class="active">Monday</span>
+              /
+              <span class="hover-link">Tuesday</span>
+              /
+              <span class="hover-link">Wednesday</span>
+              /
+              <span class="hover-link">Thrusday</span>
+              /
+              <span class="hover-link"> Friday </span>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Fitness Classes</th>
+                  <th>10:00 am - 11:30 am</th>
+                  <th></th>
+                  <th>William G. Stewart</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Muscle Training</td>
+                  <td></td>
+                  <td></td>
+                  <td>Paul D. Newman</td>
+                </tr>
+                <tr>
+                  <td>Body Building</td>
+                  <td></td>
+                  <td>2:00 pm - 3:30 pm</td>
+                  <td>Boyd C. Harris</td>
+                </tr>
+                <tr>
+                  <td>Yoga Training</td>
+                  <td></td>
+                  <td></td>
+                  <td>Hector T. Diagle</td>
+                </tr>
+                <tr>
+                  <td>Advance Training</td>
+                  <td></td>
+                  <td></td>
+                  <td>Bert D. Bowers</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trainers Section -->
+      <section class="trainer container">
+        <header class="trainer-header section-header padding center">
+          <h3 class="upper-case section-heading header-heading">
+            Expert <span class="active">Trainer</span>
+          </h3>
+          <img src="./assets/line-dec.png" alt="Waves" />
+          <p class="section-para header-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            molestiae eius doloremque suscipit facere sunt perspiciatis ipsum
+            similique voluptas, molestias sit commodi tenetur ex consectetur
+            ullam, totam voluptatem vero eos.
+          </p>
+        </header>
+        <div class="trainer-card-section flex">
+          <div class="trainer-card flex-25">
+            <img src="./assets/first-trainer.jpg" alt="First Trainer" />
+            <h4 class="active">Strenght Trainer</h4>
+            <h3 class="header-heading">Bret D.Bowers</h3>
+            <p class="header-para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+              recusandae sapiente earum ratione quia aspernatur! Laborum unde
+              dolor quam eligendi blanditiis neque, quibusdam aspernatur magni
+              veritatis similique fugiat assumenda voluptatibus.
+            </p>
+            <div class="social-media header-heading">
+              <a href="#">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card flex-25">
+            <img src="./assets/second-trainer.jpg" alt="First Trainer" />
+            <h4 class="active">Strenght Trainer</h4>
+            <h3 class="header-heading">Bret D.Bowers</h3>
+            <p class="header-para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+              recusandae sapiente earum ratione quia aspernatur! Laborum unde
+              dolor quam eligendi blanditiis neque, quibusdam aspernatur magni
+              veritatis similique fugiat assumenda voluptatibus.
+            </p>
+            <div class="social-media header-heading">
+              <a href="#">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card flex-25">
+            <img src="./assets/third-trainer.jpg" alt="First Trainer" />
+            <h4 class="active">Strenght Trainer</h4>
+            <h3 class="header-heading">Bret D.Bowers</h3>
+            <p class="header-para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+              recusandae sapiente earum ratione quia aspernatur! Laborum unde
+              dolor quam eligendi blanditiis neque, quibusdam aspernatur magni
+              veritatis similique fugiat assumenda voluptatibus.
+            </p>
+            <div class="social-media header-heading">
+              <a href="#">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us section -->
+      <section class="contact-us">
+        <div class="flex stretch">
+          <div class="contact-us-map flex-50">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.9195155713073!2d76.35140991470013!3d32.20639932016832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1606379036325!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+          <div class="about-us-form flex-50 flex">
+            <form action="./index.html" method="GET">
+              <fieldset>
+                <div class="flex">
+                  <input
+                    class="flex-48 form-input"
+                    type="text"
+                    placeholder="Your Name*"
+                    required
+                    name="Name"
+                  />
+                  <input
+                    class="flex-48 form-input"
+                    type="email"
+                    placeholder="Your Email*"
+                    required
+                    name="Email"
+                  />
+                </div>
+                <input
+                  class="form-input"
+                  type="text"
+                  placeholder="Subject*"
+                  required
+                  name="subject"
+                />
+                <textarea
+                  class="form-input"
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <input
+                  type="submit"
+                  class="btn hover-btn center form-input"
+                  value="Send Message"
+                />
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="container center">
+      <p>Copyright &copy; 2020 Training Studio - Replicated by <span class="active">Ayush Kamboj</span> </p>
+    </footer>
+  </body>
+</html>
