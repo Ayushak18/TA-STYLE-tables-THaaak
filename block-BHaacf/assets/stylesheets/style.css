@@ -1,0 +1,495 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Styles */
+
+/* General Styles */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary: #ed563a;
+  --heading: #232d38;
+  --para: #565e67;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.padding {
+  padding: 100px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.align-top {
+  align-items: flex-start;
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+.justify-start{
+  justify-content: flex-start;
+}
+.flex-65{
+  flex: 0 1 65%;
+}
+
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+.flex-50{
+  flex:0 1 50%;
+}
+
+.flex-25{
+  flex: 0 1 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+.font-0 {
+  font-size: 0;
+}
+
+.section-heading {
+  /* color: var(--heading); */
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.section-para {
+  line-height: 1.5;
+}
+
+.header-heading{
+  color: var(--heading);
+}
+
+.header-para{
+  color: var(--para);
+}
+
+.section-header{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: var(--primary);
+  padding: 10px 15px;
+  color: white;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.active {
+  color: var(--primary) !important;
+}
+
+.hover-link:hover {
+  color: var(--primary);
+}
+
+.hover-btn:hover {
+  color: var(--primary);
+  background-color: white;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.705);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.form-input{
+  border:1px solid #E3E3E3;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Specific Classes */
+
+/* Header Section */
+
+.header {
+  background: rgba(117, 117, 117, 0.5);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.header h3 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.header a {
+  color: white;
+}
+
+.header nav a {
+  font-weight: 500;
+  margin-left: 32px;
+}
+
+/* Hero Section */
+
+.hero video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-text {
+  width: 100%;
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 5%;
+  right: 5%;
+}
+
+.hero-text h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.hero-text h1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin: 18px 0;
+}
+
+/* About-Us */
+
+.about-us-header img {
+  margin: 20px 0;
+}
+
+.about-us-program-img-text{
+  margin: 50px 0;
+}
+
+.about-us-program-text{
+  padding-left:30px;
+}
+
+.about-us-program-text h4{
+  color: var(--heading);
+  font-weight: 700;
+  font-size:20px;
+}
+
+.about-us-program-text p{
+  color: var(--para);
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+/* Banner Section */
+
+.banner-div{
+  max-width: 80%;
+  line-height: 1.5;
+  color: white;
+}
+
+.banner{
+  background:url("../cta-bg.jpg");
+  background-size: cover;
+}
+
+.banner-para{
+  margin: 30px 0;
+}
+
+/* Classes */
+
+.classes-header img {
+  margin: 20px 0;
+}
+
+.classes-catalogue-aside .classes-card{
+  padding:20px;
+  box-shadow: 1px 1px 10px 2px rgb(221, 221, 221);
+  margin-bottom: 50px;
+}
+
+.classes-card h4{
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.classes-catalogue-aside .btn {
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.classes-catalogue-article{
+  margin-bottom: 100px;
+}
+
+.classes-catalogue-article img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.classes-catalogue-article h4{
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.classes-catalogue-article p{
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/* Classes-Schedule */
+
+.classes-schedule{
+  background: url(../schedule-bg.jpg);
+  color: white;
+  background-size: cover;
+}
+
+.classes-schedule-header img {
+  margin: 20px 0;
+}
+
+.table-caption{
+  margin-bottom: 50px;
+}
+
+.classes-schedule-table table{
+  margin: 0 auto;
+}
+
+.classes-schedule-table {
+  margin-bottom: 100px;
+}
+
+.classes-schedule-table table th ,td{
+  padding: 40px;
+  border: 1px solid white;
+}
+
+/* Trainer Section */
+
+.trainer-header img {
+  margin: 20px 0;
+}
+
+.trainer-card{
+  padding: 30px;
+  box-shadow: 1px 1px 10px 2px rgb(221, 221, 221);
+  border-radius: 5px;
+  margin-bottom: 100px ;
+}
+
+.trainer-card h4{
+  font-weight: 600;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.trainer-card h3{
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.trainer-card p{
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+.social-media{
+  padding: 10px 0;
+}
+
+.social-media i{
+  padding-right:2px;
+  color: var(--heading);
+}
+
+/* Contact Us section */
+
+.about-us-form{
+  background:url(../contact-bg.jpg);
+}
+
+.about-us-form form{
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+footer{
+  font-size: 12px;
+  color: var(--para);
+  font-weight: 500;
+}
+
+footer p{
+  padding: 20px 0;
+}
